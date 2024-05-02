@@ -1,5 +1,5 @@
 # Blind-Aid
-[View screen recording]((https://drive.google.com/file/d/1esVWCTvyfbQKRZXmZWBschEhO48V8Ib9/view?usp=sharing))
+[View screen recording](https://drive.google.com/file/d/1esVWCTvyfbQKRZXmZWBschEhO48V8Ib9/view?usp=sharing)
 
 ## Description
 
