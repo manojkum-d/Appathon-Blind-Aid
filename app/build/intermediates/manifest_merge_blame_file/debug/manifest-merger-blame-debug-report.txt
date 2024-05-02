@@ -1,0 +1,220 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.software2.ocrhy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:7:5-65
+12-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:9:5-79
+14-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:9:22-76
+15
+16    <!-- Include required permissions for Google Maps API to run. -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+29-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+31
+32    <application
+32-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:11:5-52:19
+33        android:allowBackup="true"
+33-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:12:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.5.0] C:\Users\manoj\.gradle\caches\transforms-3\876cdc7a666bfc6d1926701389c36d9a\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@drawable/home"
+36-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:13:9-38
+37        android:label="@string/app_name"
+37-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:14:9-41
+38        android:roundIcon="@drawable/home"
+38-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:15:9-43
+39        android:supportsRtl="true"
+39-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:16:9-35
+40        android:theme="@style/Theme.OCRhy" >
+40-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:17:9-43
+41        <activity
+41-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:18:9-20:39
+42            android:name="com.example.software2.ocrhy.MainActivity8"
+42-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:19:13-42
+43            android:exported="true" />
+43-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:20:13-36
+44        <activity
+44-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:21:9-23:39
+45            android:name="com.example.software2.ocrhy.MainActivity7"
+45-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:22:13-42
+46            android:exported="true" />
+46-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:23:13-36
+47        <activity
+47-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:24:9-26:39
+48            android:name="com.example.software2.ocrhy.MainActivity6"
+48-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:25:13-42
+49            android:exported="true" />
+49-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:26:13-36
+50        <activity
+50-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:27:9-29:39
+51            android:name="com.example.software2.ocrhy.MainActivity5"
+51-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:28:13-42
+52            android:exported="true" />
+52-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:29:13-36
+53        <activity
+53-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:30:9-32:39
+54            android:name="com.example.software2.ocrhy.MainActivity4"
+54-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:31:13-42
+55            android:exported="true" />
+55-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:32:13-36
+56        <activity
+56-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:33:9-37:42
+57            android:name="com.example.software2.ocrhy.MainActivity3"
+57-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:34:13-42
+58            android:exported="true"
+58-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:35:13-36
+59            android:screenOrientation="portrait"
+59-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:36:13-49
+60            android:supportsRtl="true" />
+60-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:37:13-39
+61        <activity
+61-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:38:9-40:39
+62            android:name="com.example.software2.ocrhy.MainActivity2"
+62-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:39:13-42
+63            android:exported="true" />
+63-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:40:13-36
+64        <activity
+64-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:41:9-50:20
+65            android:name="com.example.software2.ocrhy.MainActivity"
+65-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:42:13-41
+66            android:exported="true"
+66-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:43:13-36
+67            android:screenOrientation="portrait" >
+67-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:44:13-49
+68            <intent-filter>
+68-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:45:13-49:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:46:17-69
+69-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:46:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:48:17-77
+71-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:48:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <service android:name="com.example.software2.ocrhy.GetAllData" />
+75-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:51:9-47
+75-->C:\Users\manoj\AndroidStudioProjects\Blind_helper\app\src\main\AndroidManifest.xml:51:18-44
+76        <!-- Needs to be explicitly declared on P+ -->
+77        <uses-library
+77-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+78            android:name="org.apache.http.legacy"
+78-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+79            android:required="false" />
+79-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\manoj\.gradle\caches\transforms-3\69ba27e55c48e528737e993ddb16d350\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+80
+81        <service
+81-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\manoj\.gradle\caches\transforms-3\09773b4f51bfaaf6b0124e7b9e2781a3\transformed\jetified-firebase-ml-vision-24.0.2\AndroidManifest.xml:9:9-15:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\manoj\.gradle\caches\transforms-3\09773b4f51bfaaf6b0124e7b9e2781a3\transformed\jetified-firebase-ml-vision-24.0.2\AndroidManifest.xml:10:13-84
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\manoj\.gradle\caches\transforms-3\241123c08de1d320939bc6bc136a6216\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\manoj\.gradle\caches\transforms-3\09773b4f51bfaaf6b0124e7b9e2781a3\transformed\jetified-firebase-ml-vision-24.0.2\AndroidManifest.xml:11:13-37
+85            <meta-data
+85-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\manoj\.gradle\caches\transforms-3\09773b4f51bfaaf6b0124e7b9e2781a3\transformed\jetified-firebase-ml-vision-24.0.2\AndroidManifest.xml:12:13-14:85
+86                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+86-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\manoj\.gradle\caches\transforms-3\09773b4f51bfaaf6b0124e7b9e2781a3\transformed\jetified-firebase-ml-vision-24.0.2\AndroidManifest.xml:13:17-108
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-ml-vision:24.0.2] C:\Users\manoj\.gradle\caches\transforms-3\09773b4f51bfaaf6b0124e7b9e2781a3\transformed\jetified-firebase-ml-vision-24.0.2\AndroidManifest.xml:14:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-ml-common:22.1.0] C:\Users\manoj\.gradle\caches\transforms-3\8490ca91ce7a2253976c356aa0e4fb7c\transformed\jetified-firebase-ml-common-22.1.0\AndroidManifest.xml:11:13-13:85
+89                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+89-->[com.google.firebase:firebase-ml-common:22.1.0] C:\Users\manoj\.gradle\caches\transforms-3\8490ca91ce7a2253976c356aa0e4fb7c\transformed\jetified-firebase-ml-common-22.1.0\AndroidManifest.xml:12:17-117
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-ml-common:22.1.0] C:\Users\manoj\.gradle\caches\transforms-3\8490ca91ce7a2253976c356aa0e4fb7c\transformed\jetified-firebase-ml-common-22.1.0\AndroidManifest.xml:13:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+92                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+92-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+94        </service>
+95
+96        <receiver
+96-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+97            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+97-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+98            android:exported="true"
+98-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+99            android:permission="com.google.android.c2dm.permission.SEND" >
+99-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+100            <intent-filter>
+100-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+101                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+101-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+101-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\manoj\.gradle\caches\transforms-3\3eeeeb1b0a2924fe11f0a48aac7430a6\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+102            </intent-filter>
+103        </receiver>
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:19.3.0] C:\Users\manoj\.gradle\caches\transforms-3\241123c08de1d320939bc6bc136a6216\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\manoj\.gradle\caches\transforms-3\241123c08de1d320939bc6bc136a6216\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+107            android:authorities="com.example.software2.ocrhy.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\manoj\.gradle\caches\transforms-3\241123c08de1d320939bc6bc136a6216\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:19.3.0] C:\Users\manoj\.gradle\caches\transforms-3\241123c08de1d320939bc6bc136a6216\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\manoj\.gradle\caches\transforms-3\241123c08de1d320939bc6bc136a6216\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\manoj\.gradle\caches\transforms-3\4328a6b4f47ba9857d77346cfbc35164\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\manoj\.gradle\caches\transforms-3\4328a6b4f47ba9857d77346cfbc35164\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\manoj\.gradle\caches\transforms-3\4328a6b4f47ba9857d77346cfbc35164\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\manoj\.gradle\caches\transforms-3\4328a6b4f47ba9857d77346cfbc35164\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\manoj\.gradle\caches\transforms-3\ec1e1e626ba738ad36ee748299b0a2a0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\manoj\.gradle\caches\transforms-3\ec1e1e626ba738ad36ee748299b0a2a0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\manoj\.gradle\caches\transforms-3\ec1e1e626ba738ad36ee748299b0a2a0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+119    </application>
+120
+121</manifest>
